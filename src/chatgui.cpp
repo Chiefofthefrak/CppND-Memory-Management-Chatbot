@@ -2,6 +2,8 @@
 #include <wx/colour.h>
 #include <wx/image.h>
 #include <string>
+#include <memory>
+
 #include "chatbot.h"
 #include "chatlogic.h"
 #include "chatgui.h"
@@ -135,7 +137,7 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
     //// STUDENT CODE
     ////
 
-    //delete _chatLogic;
+   // delete _chatLogic;
 
     ////
     //// EOF STUDENT CODE
